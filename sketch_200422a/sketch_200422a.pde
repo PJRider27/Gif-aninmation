@@ -24,6 +24,7 @@ void setup(){
 void draw(){
   PImage frame = gif.get(n);
   image(frame,0,0,width,height);
+  frameRate(28);
   n++;
   if(n>80) n=0;
 }
